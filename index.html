@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cleaning Planner</title>
+<meta name="description" content="A cleaning binder with tabbed dividers and checklist cards, offline on your iPhone.">
+<meta name="theme-color" content="#7d9fb8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cleaning">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="binder">
+  <div class="cover">
+    <div class="label">Home Cleaning Binder</div>
+    <nav id="tabs" aria-label="Binder sections"></nav>
+    <div style="position:relative">
+      <div class="rings" aria-hidden="true"></div>
+      <main id="main"></main>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
